@@ -13,6 +13,7 @@ const Hero = () => {
                     fill
                     className="object-cover object-center"
                     priority
+                    unoptimized
                 />
                 {/* Overlay - Gradient for legibility */}
                 <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent sm:from-white/90 sm:via-white/50 sm:to-transparent" />
